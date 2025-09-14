@@ -9,7 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Main {
 
     @Autowired
-    @Qualifier("firstExecutorService")
+    //@Qualifier("firstExecutorService")    // First Homework
+    @Qualifier("secondExecutorService")   // Second Homework
     private Executor executorService;
 
     public static void main(String[] args) {
