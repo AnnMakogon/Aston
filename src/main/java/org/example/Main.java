@@ -10,7 +10,8 @@ public class Main {
 
     @Autowired
     //@Qualifier("firstExecutorService")    // First Homework
-    @Qualifier("secondExecutorService")   // Second Homework
+    //@Qualifier("secondExecutorService")   // Second Homework
+    @Qualifier("thirdExecutorService")     // Third Homework
     private Executor executorService;
 
     public static void main(String[] args) {
