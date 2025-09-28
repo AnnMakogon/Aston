@@ -11,7 +11,9 @@ public class Main {
     @Autowired
     //@Qualifier("firstExecutorService")    // First Homework
     //@Qualifier("secondExecutorService")   // Second Homework
-    @Qualifier("thirdExecutorService")     // Third Homework
+    //@Qualifier("thirdExecutorService")    // Third Homework
+    //@Qualifier("firthExecutorServiceDLLock")   // Fourth Homework 1)
+    @Qualifier("firthExecutorServiceTwoStreams")   // Fourth Homework 2)
     private Executor executorService;
 
     public static void main(String[] args) {
